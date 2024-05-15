@@ -19,4 +19,26 @@ html {
 
 body {
   margin-bottom: 60px;
+  height: 100%;
 }
+
+nav {
+    height: 70px;
+}
+
+.home-content {
+    display:flex;
+    flex-direction: column;
+}
+.home-content .hero-video video {
+    display:flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+
